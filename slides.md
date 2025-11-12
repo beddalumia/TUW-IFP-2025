@@ -290,7 +290,7 @@ layout: default
   <v-clicks depth=2>
 
   - But **local** SSRs inhibit all quantum superpositions except:
-    - holon-doublon coupling   
+    - holon-doublon binding   
       ${\color{#F43F5E}\rho_{_\mathrm{hd}} \!\!=\, \mid \uparrow\downarrow \rangle\langle \bullet\!\mid \otimes \mid\!\bullet \rangle\langle \uparrow\downarrow \mid}$ 
     - antiferromagnetic (RVB) fluctuations  
       ${\color{#3D81F6}\rho_{_{\uparrow\downarrow}} \!\!=\, \mid \uparrow \rangle\langle \downarrow \mid \otimes \mid\downarrow\rangle\langle \uparrow\mid}$ 
