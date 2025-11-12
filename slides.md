@@ -92,7 +92,7 @@ neversink_slug: Kristina Armitage for Quanta Magazine
 # Particle entanglement?
 
 Evaluating the entanglement between particles would
-be the _golden standard_ to study strongly-correlated systems.
+be the _gold-standard_ to study strongly-correlated systems.
 
 <v-click>
 
