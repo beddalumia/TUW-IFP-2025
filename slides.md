@@ -67,10 +67,94 @@ It is also expected to be a **resource for quantum technologies**, provided that
 <v-clicks at="+1">
 
 - it is operationally accessible
-- it goes beyond (easy) classical simulation
-
+- it goes beyond (easy) classical simulation   
   
 </v-clicks>
+
+<v-click>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+-> or, at least, this would be the "special"    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+entanglement brought by interactions!    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(aren't those the _praised_ ingredients?)
+
+</v-click>
+
+---
+layout: image-right
+image: /images/armitage_quanta.jpg
+neversink_slug: Kristina Armitage for Quanta Magazine
+---
+
+
+# Particle entanglement?
+
+Evaluating the entanglement between particles would
+be the _golden standard_ to study strongly-correlated systems.
+
+<v-click>
+
+Yet, there are many hills to climb:
+
+</v-click>
+
+<v-clicks>
+
+- Celebrated and measurable witnesses, like the **QFI**, are not really
+  quantitative and are highly operator dependent.
+
+- Quantitative objects, as the **nonfreeness**,
+  can reliably quantify correlations, but do not
+  resolve quantum and classical terms.
+
+- Some new proposals (e.g. **quantum nongaussianity**,
+  **nonstabilizerness**, etc.)
+  appear very hard to define and compute.
+
+- Almost all inter-particle quantities bind
+  **nonlocal and multipartite** correlations together (much harder then bipartite!)
+
+</v-clicks>
+
+---
+layout: iframe-right
+title: Web-View
+color: black
+url: images/RVB.mp4
+slide_info: true
+neversink_slug: Jubobroff for Wikipedia
+---
+
+# Orbital entanglement
+
+The framework of the so-called **orbital entanglement** is **much more developed**, thanks to the rise of Tensor Networks and related developments.
+
+<v-clicks>
+
+- Partitioning into **distinguishable** subsystems (orbitals, modes)
+
+- Much more developed information theory (e.g. **nonlocal bipartite entanglement**)
+
+- Particles are not anymore the main actors
+
+</v-clicks>
+
+<v-click>
+&nbsp;&nbsp;&nbsp;&nbsp;
+ --> spatial correlations also from tunneling
+</v-click>
+<br/><br/>
+<v-click>
+&nbsp;&nbsp;&nbsp;&nbsp;
+ --> can be large in noninteracting systems
+</v-click>
+<br/><br/>
+<v-click>
+&nbsp;&nbsp;&nbsp;&nbsp;
+ --> not obvious link to strong-correlations
+</v-click>
 
 ---
 layout: default
@@ -138,7 +222,7 @@ transition: slide-up
 
 &nbsp;&nbsp;&nbsp; -> Such real-space entanglement can be **simulated with a simple classical algorithm**   
 
-&nbsp;&nbsp;&nbsp; -> ==Arguably not relevant for quantum technologies!==
+&nbsp;&nbsp;&nbsp; -> ==Arguably not relevant for quantum technologies!== (or at least for strongly correlated systems)
 
 <AdmonitionType type="tip" title="Idea" width="450px" v-drag="[495,432,450,73]">
 Removing all charge superpositions, we may uncover nontrivial real-space entanglement (if any!)
@@ -976,7 +1060,7 @@ transition: slide-up
 
 <hr/>
 
-Symmetry-resolved versus full entanglement between sites $\langle i j \rangle$
+Symmetry-resolved entanglement vs negativity between sites $\langle i j \rangle$
 
 </div>
 </div>
@@ -1081,6 +1165,6 @@ slide_info: false
 
 ---
 layout: image
-image: /images/Venice.jpg
+image: /images/ThankYou.svg
 slide_info: false
 ---
