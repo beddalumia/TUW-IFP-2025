@@ -129,7 +129,7 @@ neversink_slug: Jubobroff for Wikipedia
 
 # Orbital entanglement
 
-The framework of the so-called **orbital entanglement** is **much more developed**, thanks to the rise of Tensor Networks and related developments.
+The framework of the so-called **orbital entanglement** is **much more mature**, thanks to the rise of Tensor Networks and related developments.
 
 <v-clicks>
 
