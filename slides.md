@@ -10,16 +10,16 @@ neversink_slug: "TU Wien - IFP"
 
 # Symmetry resolved `entanglement` in the _2d_ Hubbard model
 
-Contributed talk by **Gabriele Bellomia**    
-Postdoc at SISSA - _Strongly Correlated Electrons_   
+**GABRIELE BELLOMIA**    
+Post-Doc fellow at SISSA --- _Capone's group_    
+Moving soon to TU Wien --- _Held's group_
 
 <br />
     
 <img src=/images/sissalight.svg width=110 class="float-right mr-10 mb-5">
 
-:: note ::
-Workshop **"Taming the interplay of spin and charge in unconventional superconductors"**  
-**FisMat2025** --- July 7<sup>th</sup>, Venice --- _Moderated by Claudio Giannetti and Massimo Capone_
+:: note ::  
+**Institute Seminar** --- November 12<sup>th</sup>, TU Wien --- _Institut für Festkörperphysik_
 
 <!-- 
 ### Abstract
@@ -67,7 +67,7 @@ It is also expected to be a **resource for quantum technologies**, provided that
 <v-clicks at="+1">
 
 - it is operationally accessible
-- it goes beyond classical simulation
+- it goes beyond (easy) classical simulation
 
   
 </v-clicks>
@@ -87,12 +87,12 @@ layout: default
 
   - Fundamental rule of quantum mechanics :   
     -> No superpositions of states with different parity of the electron number<sup>1</sup>   
-  - It surely applies to the full state   
-    -> operationally applies also to local operations<sup>2</sup>
-  - Even stronger arguments for the local P-SSR:   
+  - It surely applies to full and reduced states of a fermionic system   
+    -> in practice it applies to any _local_ operation<sup>2</sup>
+  - Even stronger (physical/formal) arguments for the local P-SSR:   
     -> It is needed by the no-signaling theorem<sup>3</sup>    
     -> It is required for mathematical consistency<sup>4</sup>    
-    -> It ensures robustness against time evolution<sup>5</sup>  
+    -> It ensures robustness against _typical_ evolution<sup>5</sup>  
 
   </v-clicks>
 
@@ -149,19 +149,20 @@ Removing all charge superpositions, we may uncover nontrivial real-space entangl
 
 ---
 layout: default
-transition: view-transition
 ---
 
 
-<div class="neversink-emerald-scheme ns-c-bind-scheme"> 
+<div class="neversink-green-light-scheme ns-c-bind-scheme"> 
 
 
-# &nbsp; Symmetries of a Hubbard dimer (in a mixed state) 
+# &nbsp; Symmetries of a Hubbard dimer (in a general mixed state) 
 </div>
 
-<div class="grid w-full h-fit grid-cols-5 grid-rows-2 mt-10 mb-auto">
+<div class="grid w-full h-fit grid-cols-4 grid-rows-1 mt-10 mb-auto">
 
-  <div class="grid-item grid-col-span-3"><img src="/images/dimer_rdm.svg" class="h-full w-auto mr-2" /></div>
+  <div class="grid-item grid-col-span-2 h-91"><img src="/images/cdmft_symmetries.svg" class="h-full w-auto ml-3.5" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <kbd> Rotated to highlight two-site symmetries  </kbd></div>
   
   <div class="grid-item grid-col-span-2 ml-7"> 
 
@@ -177,25 +178,20 @@ transition: view-transition
 
   </v-clicks></div>
 
-  <div class="grid-item grid-col-span-3 text-center h-fit">
-
-  <kbd> Adapted from: Ding _et al._, J. Chem. Theory Comput. **17**, 1, 79–95 (2021) </kbd>
-
-  </div>
 </div>
 
 ---
 
 
-<div class="neversink-emerald-scheme ns-c-bind-scheme"> 
+<div class="neversink-green-light-scheme ns-c-bind-scheme"> 
 
-# &nbsp; Symmetries of a Hubbard dimer (in a mixed state) 
+# &nbsp; Symmetries of a Hubbard dimer (in a general mixed state) 
 
 </div>
 
 <div class="grid w-full h-fit grid-cols-4 grid-rows-1 mt-10 mb-auto">
 
-  <div class="grid-item grid-col-span-2 h-91"><img src="/images/dimer_sym.svg" class="h-full w-auto ml-5 " />   
+  <div class="grid-item grid-col-span-2 h-91"><img src="/images/cdmft_ssr.svg" class="h-full w-auto ml-3.5 " />   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <kbd> Rotated to highlight single-site symmetries  </kbd></div>
 
@@ -213,11 +209,125 @@ transition: view-transition
     - holon-doublon coupling   
       ${\color{#F43F5E}\rho_{_\mathrm{hd}} \!\!=\, \mid \uparrow\downarrow \rangle\langle \bullet\!\mid \otimes \mid\!\bullet \rangle\langle \uparrow\downarrow \mid}$ 
     - antiferro fluctuations  
-      ${\color{DeepSkyBlue}\rho_{_{\uparrow\downarrow}} \!\!=\, \mid \uparrow \rangle\langle \downarrow \mid \otimes \mid\downarrow\rangle\langle \uparrow\mid}$ 
+      ${\color{#81C9FC}\rho_{_{\uparrow\downarrow}} \!\!=\, \mid \uparrow \rangle\langle \downarrow \mid \otimes \mid\downarrow\rangle\langle \uparrow\mid}$ 
 
   </v-clicks></div>
 
 </div>
+
+---
+layout: default
+transition: view-transition
+---
+
+
+<div class="neversink-fuchsia-light-scheme ns-c-bind-scheme"> 
+
+
+# &nbsp; Detecting entanglement via partial transposing 
+</div>
+
+<div class="grid w-full h-fit grid-cols-4 grid-rows-1 mt-10 mb-auto">
+
+  <div class="grid-item grid-col-span-2 h-91"><img src="/images/cdmft_pretranspose.svg" class="h-full w-auto ml-3.5" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <kbd> Rotated to highlight single-site symmetries  </kbd></div>
+  
+  <div class="grid-item grid-col-span-2 ml-7"> 
+
+  Thanks to the _Peres-Horodecki_ criterion we can quantify the entanglement encoded in off-diagonal elements by **partial transposing**
+
+  <v-click>
+
+  $$\rho = \begin{pmatrix} A_{11} & A_{12} & \dots & A_{1n} \\ A_{21} & A_{22} & & \\ \vdots & & \ddots & \\ A_{n1} & & & A_{nn} \end{pmatrix}$$
+  &nbsp;&nbsp;&nbsp;&nbsp;where $n = \dim \mathcal{F}_\mathrm{A}$, and $\dim A_{ij} \equiv \dim \mathcal{F}_\mathrm{B}$
+
+  </v-click>
+
+  </div>
+
+</div>
+
+---
+layout: default
+---
+
+
+<div class="neversink-fuchsia-light-scheme ns-c-bind-scheme"> 
+
+
+# &nbsp; Detecting entanglement via partial transposing 
+</div>
+
+<div class="grid w-full h-fit grid-cols-4 grid-rows-1 mt-10 mb-auto">
+
+  <div class="grid-item grid-col-span-2 h-91"><img src="/images/cdmft_partial_transpose.svg" class="h-full w-auto ml-3.5" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <kbd> Partial tranposed on one of the two sites  </kbd></div>
+  
+  <div class="grid-item grid-col-span-2 ml-7"> 
+
+  Thanks to the _Peres-Horodecki_ criterion we can quantify the entanglement encoded in off-diagonal elements by **partial transposing**
+
+  $$\rho = \begin{pmatrix} A_{11} & A_{12} & \dots & A_{1n} \\ A_{21} & A_{22} & & \\ \vdots & & \ddots & \\ A_{n1} & & & A_{nn} \end{pmatrix}$$
+  &nbsp;&nbsp;&nbsp;&nbsp;where $n = \dim \mathcal{F}_\mathrm{A}$, and $\dim A_{ij} \equiv \dim \mathcal{F}_\mathrm{B}$
+
+$$\rho^{\color{#D848EE}T\!_{_{_\mathrm{B}}}} = \begin{pmatrix} A_{11}^{\color{#D848EE}T} & A_{12}^{\color{#D848EE}T} & \dots & A_{1n}^{\color{#D848EE}T} \\ A_{21}^{\color{#D848EE}T} & A_{22}^{\color{#D848EE}T} & & \\ \vdots & & \ddots & \\ A_{n1}^{\color{#D848EE}T} & & & A_{nn}^{\color{#D848EE}T} \end{pmatrix}$$
+
+  </div>
+
+</div>
+
+---
+layout: default
+---
+
+
+<div class="neversink-fuchsia-light-scheme ns-c-bind-scheme"> 
+
+
+# &nbsp; Detecting entanglement via partial transposing 
+</div>
+
+<br /><br />
+
+&nbsp; &nbsp; &nbsp;
+To account for ==$\mathrm{fermionic}$== anticommutation rules the partial transpose is best written as
+
+<br />
+
+<v-clicks>
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+$\rho^{\color{#D848EE}T\!_{_{_\mathrm{B}}}} = \displaystyle\sum_{\Psi^\mathrm{A}_\lambda}\sum_{\Psi^\mathrm{A}_\nu}\sum_{\Psi^\mathrm{B}_\lambda}\sum_{\Psi^\mathrm{B}_\nu}
+    \langle{\Psi^\mathrm{A}_\lambda\Psi_\lambda^\mathrm{B}}|{\rho}|{\Psi^\mathrm{A}_\nu\Psi_\nu^\mathrm{B}} \rangle
+    |{\Psi^\mathrm{A}_\lambda}\rangle\langle{\Psi^\mathrm{A}_\nu}| \otimes 
+    \Bigl(|{\Psi^\mathrm{B}_\lambda}\rangle\langle{\Psi^\mathrm{B}_\nu}|\Bigr)^{\color{#D848EE}\!\!T}$
+<br />
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+$\,\,=\displaystyle\sum_{\Psi^\mathrm{A}_\lambda}\sum_{\Psi^\mathrm{A}_\nu}\sum_{\Psi^\mathrm{B}_\lambda}\sum_{\Psi^\mathrm{B}_\nu}
+    \langle{\Psi^\mathrm{A}_\lambda\Psi^\mathrm{B}_{\color{#D848EE}\nu}}|{\rho}|{\Psi^\mathrm{A}_\nu\Psi^\mathrm{B}_{\color{#D848EE}\lambda}}\rangle
+    |{\Psi^\mathrm{A}_\lambda}\rangle\langle{\Psi^\mathrm{A}_\nu}| \otimes |{\Psi^\mathrm{B}_\lambda}\rangle\langle{\Psi^\mathrm{B}_\nu}|$ ==$\exp\!\left(i\pi\phi_{\lambda\nu}^\mathrm{AB}\right)$==
+<br />    <br />
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+where ==$\small \color{#D8760E} \phi_{\lambda\nu}^\mathrm{AB} = \tfrac{1}{2}{\left(\mathrm{P}(\Psi^\mathrm{B}_\lambda)+\mathrm{P}(\Psi^\mathrm{B}_\nu)\right)} + {\left(\mathrm{P}(\Psi^\mathrm{A}_\lambda)+\mathrm{P}(\Psi^\mathrm{A}_\nu)\right)}\times{\left(\mathrm{P}(\Psi^\mathrm{B}_\lambda)+\mathrm{P}(\Psi^\mathrm{B}_\nu)\right)} + \mathrm{P}(\Psi_\lambda^\mathrm{B})$==    
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+and $\small \mathrm{P}(|n_1, n_2, \dots \rangle) = \biggl(\displaystyle\sum_i n_i \biggr)\!\!\!\!\!\mod 2\,$ is the parity of the given Fock state $|n_1, n_2, \dots \rangle$.
+
+</v-clicks>
+
+<!-- $$
+\rho^{\color{#D848EE}T\!_{_{_\mathrm{B}}}}
+    = \sum_{\Psi^\mathrm{A}_\lambda}\sum_{\Psi^\mathrm{A}_\nu}\sum_{\Psi^\mathrm{B}_\lambda}\sum_{\Psi^\mathrm{B}_\nu}
+    \langle{\Psi^\mathrm{A}_\lambda\Psi_\lambda^\mathrm{B}}|{\rho}|{\Psi^\mathrm{A}_\nu\Psi_\nu^\mathrm{B}} \rangle
+    |{\Psi^\mathrm{A}_\lambda}\rangle\langle{\Psi^\mathrm{A}_\nu}| \otimes 
+    \Bigl(|{\Psi^\mathrm{B}_\lambda}\rangle\langle{\Psi^\mathrm{B}_\nu}|\Bigr)^{\color{#D848EE}\!\!T} \\
+    = \sum_{\Psi^\mathrm{A}_\lambda}\sum_{\Psi^\mathrm{A}_\nu}\sum_{\Psi^\mathrm{B}_\lambda}\sum_{\Psi^\mathrm{B}_\nu}
+    \langle{\Psi^\mathrm{A}_\lambda\Psi^\mathrm{B}_{\color{#D848EE}\nu}}|{\rho}|{\Psi^\mathrm{A}_\nu\Psi^\mathrm{B}_{\color{#D848EE}\lambda}}\rangle
+    |{\Psi^\mathrm{A}_\lambda}\rangle\langle{\Psi^\mathrm{A}_\nu}| \otimes |{\Psi^\mathrm{B}_\lambda}\rangle\langle{\Psi^\mathrm{B}_\nu}|  \colorbox{#FDE589}{\color{#D8760E}$\exp{i\pi\phi_{nm}^\mathrm{AB}}$}
+$$ -->
 
 ---
 layout: section
