@@ -402,7 +402,7 @@ and $\small \mathrm{P}(|n_1, n_2, \dots \rangle) = \biggl(\displaystyle\sum_i n_
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 --> We can measure the entanglement with the so-called **fermionic negativity**
 $$
-\mathcal{N}^\mathrm{F}_\mathrm{AB} = \log_2 \!\!\left[1 + \sum_{\{\varepsilon^{T_{_\mathrm{B}}}\}}\biggl(\left|\varepsilon^{T_\mathrm{B}}\right| - \varepsilon^{T_\mathrm{B}}\biggr)\right], \quad \left\{\varepsilon^{T_\mathrm{B}}\right\} = \mathrm{eig}\,\rho^{T_\mathrm{B}}
+\mathcal{N}^\mathrm{F}_\mathrm{AB} = \log_2 \!\!\left[\sum_{\{\varepsilon^{T_{_\mathrm{B}}}\}}\Bigl(\varepsilon^{T_\mathrm{B}}\Bigr)\right], \quad \left\{\varepsilon^{T_\mathrm{B}}\right\} = \mathrm{svd}(\rho^{T_\mathrm{B}})
 $$
 
 
@@ -615,9 +615,9 @@ transition: slide-left
 
   <br />
 
-  $$
-  \mathcal{N}^\mathrm{F}_\mathrm{AB} = \log_2 \!\!\left[1 + \sum_{\{\varepsilon^{T_{_\mathrm{B}}}\}}\biggl(\left|\varepsilon^{T_\mathrm{B}}\right| - \varepsilon^{T_\mathrm{B}}\biggr)\right]
-  $$
+$$
+\mathcal{N}^\mathrm{F}_\mathrm{AB} = \log_2 \!\!\left[\sum_{\{\varepsilon^{T_{_\mathrm{B}}}\}}\Bigl(\varepsilon^{T_\mathrm{B}}\Bigr)\right], \quad \left\{\varepsilon^{T_\mathrm{B}}\right\} = \mathrm{svd}(\rho^{T_\mathrm{B}})
+$$
 
   <br />
 
