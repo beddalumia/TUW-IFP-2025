@@ -329,7 +329,7 @@ layout: default
 
   <div class="grid-item grid-col-span-2 h-91"><img src="/images/cdmft_partial_transpose.svg" class="h-full w-auto ml-3.5" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <kbd> Partial tranposed on one of the two sites  </kbd></div>
+  <kbd> Partial transposed on one of the two sites  </kbd></div>
   
   <div class="grid-item grid-col-span-2 ml-7"> 
 
@@ -417,7 +417,7 @@ transition: slide-up
 
   <div class="grid-item grid-col-span-2 h-91"><img src="/images/cdmft_partial_transpose.svg" class="h-full w-auto ml-3.5" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <kbd> Partial tranposed on one of the two sites  </kbd></div>
+  <kbd> Partial transposed on one of the two sites  </kbd></div>
   
   <div class="grid-item grid-col-span-2 ml-7"> 
 
@@ -541,13 +541,13 @@ transition: view-transition
 
   <div class="grid-item grid-col-span-2 h-91"><img src="/images/cdmft_partial_transpose.svg" class="h-full w-auto ml-3.5" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <kbd> Partial tranposed on one of the two sites  </kbd></div>
+  <kbd> Partial transposed on one of the two sites  </kbd></div>
   
   <div class="grid-item grid-col-span-2 ml-7"> 
 
   <div class="grid-item grid-col-span-2 h-91"><img src="/images/dimer_partial_transpose.svg" class="h-full w-auto mr-3.5" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <kbd> Partial tranposed on one of the two sites  </kbd></div>
+  <kbd> Partial transposed on one of the two sites  </kbd></div>
   </div>
 
 </div>
