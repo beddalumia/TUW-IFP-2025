@@ -905,7 +905,6 @@ Then map to an impurity model
 ---
 layout: full
 title: MIT
-transition: view-transition
 ---
 
 <div class="neversink-rose-scheme ns-c-bind-scheme"> 
@@ -915,7 +914,7 @@ transition: view-transition
 </div>
 
 <div class="grid w-full h-fit grid-cols-3 grid-rows-1 mt-7 mb-auto">
-<div class="grid-item grid-col-span-2 mb-3"><img src="/images/half_sym.svg" width=700/></div>
+<div class="grid-item grid-col-span-2 pt-10"><img src="/images/half_sym_ree.svg" width=525/></div>
 <div class="grid-item grid-col-span-1 text-center">
 <v-click at=0>
 
@@ -949,7 +948,7 @@ transition: slide-left
 </div>
 
 <div class="grid w-full h-fit grid-cols-3 grid-rows-1 mt-7 mb-auto">
-<div class="grid-item grid-col-span-2 mb-3"><img src="/images/half_sym_neg.svg" width=525 ml-2/></div>
+<div class="grid-item grid-col-span-2 pt-10 mb-15"><img src="/images/half_sym_neg.svg" width=525/></div>
 <div class="grid-item grid-col-span-1 text-left">
 
 Hubbard dimer reference:
@@ -967,7 +966,7 @@ Hubbard dimer reference:
 
 <hr/>
 
-Symmetry-resolved entanglement vs negativity between sites $\langle i j \rangle$
+Symmetry-resolved entropy vs negativity between sites $\langle i j \rangle$
 
 </div>
 </div>
@@ -987,7 +986,7 @@ title: Doping
 </div>
 
 <div class="grid w-full h-fit grid-cols-3 grid-rows-1 mt-7 mb-auto">
-<div class="grid-item grid-col-span-2 mb-4.5"><img src="/images/doped_sym.svg" width=700/></div>
+<div class="grid-item grid-col-span-2 pt-10 mb-16.3"><img src="/images/doped_sym_ree.svg" width=525/></div>
 <div class="grid-item grid-col-span-1 ml-15">
 <v-clicks at=0>
 
@@ -1020,7 +1019,7 @@ transition: slide-up
 </div>
 
 <div class="grid w-full h-fit grid-cols-3 grid-rows-1 mt-7 mb-auto">
-<div class="grid-item grid-col-span-2 mb-3"><img src="/images/doped_sym_neg.svg" width=525 ml-2/></div>
+<div class="grid-item grid-col-span-2 pt-10 mb-16"><img src="/images/doped_sym_neg.svg" width=525/></div>
 <div class="grid-item grid-col-span-1 text-left">
 <v-clicks>
 
@@ -1041,7 +1040,7 @@ transition: slide-up
 
 <hr/>
 
-Symmetry-resolved entanglement vs negativity between sites $\langle i j \rangle$
+Symmetry-resolved entropy vs negativity between sites $\langle i j \rangle$
 
 </div>
 </div>
