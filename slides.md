@@ -92,9 +92,7 @@ Yet, there are many hills to climb:
   can reliably quantify correlations, but do not
   resolve quantum and classical terms.
 
-- Some new proposals (e.g. **quantum nongaussianity**,
-  **nonstabilizerness**, etc.)
-  appear very hard to define and compute.
+- Most new proposals for evaluating the **quantum nongaussian correlations**, appear very hard to define and compute.
 
 - Almost all inter-particle quantities bind
   **nonlocal and multipartite** correlations together (much harder then bipartite!)
@@ -103,7 +101,7 @@ Yet, there are many hills to climb:
 
 ---
 layout: iframe-right
-title: Web-View
+title: Orbital entanglement
 color: black
 url: images/RVB.mp4
 slide_info: true
@@ -112,7 +110,7 @@ neversink_slug: Jubobroff for Wikipedia
 
 # Orbital entanglement
 
-The framework of the so-called **orbital entanglement** is **much more mature**, thanks to the rise of Tensor Networks and related developments.
+The framework of the so-called **orbital entanglement** is **much more mature**, thanks to the rise of tensor network wavefunctions and related algorithms.
 
 <v-clicks>
 
@@ -136,7 +134,8 @@ The framework of the so-called **orbital entanglement** is **much more mature**,
 <br/><br/>
 <v-click>
 &nbsp;&nbsp;&nbsp;&nbsp;
- --> not obvious link to strong-correlations
+ --> no obvious link to strong-correlations
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in the sense of the SCES community
 </v-click>
 
 ---
@@ -617,7 +616,7 @@ $$
   <v-click>
 
   $$
-  \mathcal{N}^\mathrm{F}_\mathrm{AB} = \log_2 \!\left[1 + {\color{#3D81F6}N_{\uparrow\downarrow}} + {\color{#F59D13}N_{t}} + {\color{#FB2D45}N_\mathrm{hd}} \right]
+  \mathcal{N}^\mathrm{F}_\mathrm{AB} = \log_2 \!\left[{\color{#3D81F6}N_{\uparrow\downarrow}} + {\color{#F59D13}N_{t}} + {\color{#FB2D45}N_\mathrm{hd}} \right]
   $$
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -717,7 +716,7 @@ transition: slide-up
 
   ${S_\mathrm{A} = {\color{#3D81F6}S_{\uparrow\downarrow}} + {\color{#F59D13}S_{t}} + {\color{#FB2D45}S_\mathrm{hd}}}$
 
-  $\mathcal{N}^\mathrm{F}_\mathrm{AB} = \log_2 \!\left[1 + {\color{#3D81F6}N_{\uparrow\downarrow}} + {\color{#F59D13}N_{t}} + {\color{#FB2D45}N_\mathrm{hd}} \right]$
+  $\mathcal{N}^\mathrm{F}_\mathrm{AB} = \log_2 \!\left[{\color{#3D81F6}N_{\uparrow\downarrow}} + {\color{#F59D13}N_{t}} + {\color{#FB2D45}N_\mathrm{hd}} \right]$
 
   <v-clicks>
 
@@ -1030,7 +1029,6 @@ transition: slide-up
 
   - $\mathcal{N}^\mathrm{F2}_{\langle ij \rangle}$ is
     instead finite (but small)    
-    -> again, thanks to the PPT!
 
 </v-clicks>
 
@@ -1110,7 +1108,7 @@ transition: view-transition
 ---
 layout: iframe-right
 title: Web-View
-url: https://arxiv.org/html/2506.18709v1#abstract
+url: https://arxiv.org/html/2506.18709v2#abstract
 slide_info: false
 ---
 
