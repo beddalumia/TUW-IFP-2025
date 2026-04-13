@@ -15,6 +15,8 @@ Learn more about Slidev at the [documentation](https://sli.dev/).
 
 ## Abstract
 
+#### Symmetry-resolved entanglement in the $2d$ Hubbard model
+
 The strongly correlated materials community approaches the third quantum revolution under a two‐fold, bold assumption: I. strong inter-particle correlations are expected to grant richer quantum resources than what can be found in other platforms and II. these resources are presumed to be operationally accessible for next-generation technologies. We are thus compelled to faithfully assess these aspects, with appropriate measures of entanglement and correlations.
 
 After a brief review of the current state (and limitations) of the intricate theory of entanglement between indistinguishable fermions, to which we have recently started to contribute [1], I will show how one can single out the inherent properties of strongly-correlated electrons even in the —much more developed— framework of orbital/mode entanglement.    
