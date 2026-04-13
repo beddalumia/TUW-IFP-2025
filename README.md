@@ -1,7 +1,7 @@
 # Slides for my invited talk at the Institute of Solid State Physics (IFP) $-$ TU Wien
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8ddadb84-e2ef-49fb-a703-881a4f67ccc7/deploy-status)](https://app.netlify.com/projects/tuw-ifp-2025/deploys)
 
-You can view the slides hosted at [netlify](https://fismat2025bellomia.netlify.app/#/1), or...
+You can view the slides hosted at [netlify](tuw-ifp-2025.netlify.app/), or...
 
 To start the slide show locally:
 
