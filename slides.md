@@ -1023,10 +1023,10 @@ transition: slide-up
 <div class="grid-item grid-col-span-1 text-left">
 <v-clicks>
 
-  - Remarkably, also $\mathcal{N}^\mathrm{F0}_{\langle ij \rangle}$ vanishes in the Fermi liquid    
+  - Remarkably, also $\mathcal{N}^{\uparrow\downarrow}_{\langle ij \rangle}$ vanishes in the Fermi liquid    
   -> here the PPT is faithful!
 
-  - $\mathcal{N}^\mathrm{F2}_{\langle ij \rangle}$ is
+  - $\mathcal{N}^\mathrm{hd}_{\langle ij \rangle}$ is
     instead finite (but small)    
 
 </v-clicks>
